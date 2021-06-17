@@ -29,14 +29,14 @@ app.get('',(req,res)=>{
 
 app.get('/about',(req,res)=>{
     res.render('about',{
-        title: 'About me',
+        title: 'About',
         name:'Sabari'
     })
 
 })
 app.get('/help',(req,res)=>{
     res.render('help',{
-        helpText:'This is some helpful text',
+        helpText:'This site will help you to get the weather details of a searched location. eg :Trivandrum',
         title:'Help',
         name:'Sabari'
     })
